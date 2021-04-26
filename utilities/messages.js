@@ -18,7 +18,7 @@ module.exports = function(graph_api){
   //Handle received message
   module._handleMessage = function(message) {
     let senderID = message.sender.id;
-    this._sendMessage(senderID, "YOLO");
+    this._sendMessage(senderID, "https://www.youtube.com/watch?v=R7vsR8t2miI");
   }
 
   //Send message from the bot to the user
